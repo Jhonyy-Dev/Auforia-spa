@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title>Euforia - Spa</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../assets/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/flipdown.css">
+    <link rel="stylesheet" href="../assets/css/lightbox.min.css">
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/dark-mode.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+
+<body data-spy="scroll" data-offset="80">
+    <!-- START PRELOADER -->
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <!-- END PRELOADER -->
+
+    <!----------------------- 
+			Navbar Section  
+		------------------------->
+    <div class="navbar-section">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                <a class="navbar-brand main_logo" style="height: auto; width: 150px;" href="index.php"  > <img
+                src="../assets/img/logo1.png" alt=""> </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav main_menu ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.php">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about" data-bs-toggle="collapse"
+                                    data-bs-target=".navbar-collapse.show">Acerca de</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="service.php">Servicios</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="FAQ.php">Preguntas Frecuentes</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="Terminos.php">Términos y condiciones</a>
+                            </li>
+                            <li>
+                                <button class="language-btn" onclick="window.location.href='../ingles/service.php'" >
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg" alt="Bandera de España" style="width: 20px; height: 15px; margin-right: 5px;">
+                                    ES
+                                </button>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+
+    <!----------------------- 
+			Home Section  
+		------------------------->
+    <section class="home1" id="home1">
+        <div class="container">
+            <div class="home-content">
+                <div class="home-title">
+                    <h4 class="wow animate__animated animate__fadeInDown" data-wow-delay="0.3s">
+                        <svg width="30" height="30" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z" fill="currentColor"></path>
+                        </svg> Bienvenido a Euforia Spa
+                    </h4>
+                    <h1 id="subtitulo2" class="wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">¡Experimenta un Verdadero Masaje Nuru!</h1>
+                    <div class="home-buttons wow animate__animated animate__fadeInDown" data-wow-delay="1s">
+                        <a class="tp-btn" rel="noreferrer"  href="https://wa.me/19738610749?text=Buenas,%20quiero%20realizar%20una%20consulta" target="_blank">
+                            <span>Llámame</span>
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="rgba(255,255,255,1)"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z" fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!----------------------- 
+			About Section  
+		------------------------->
+    <section class="about section_padding pb_0 bg_shape1" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 wow animate__animated animate__fadeInLeft" data-wow-delay="0.4s">
+                    <div class="title pb_0 mb_30 animation animate__animated animate__fadeInUp">
+                        <span>Euforia Spa</span>
+                        <h2>¡Experimenta un auténtico masaje Nuru!</h2>
+                    </div>
+
+                    <div class="about-text">
+                        <p>El masaje Nuru, a menudo llamado masaje deslizante, es un tipo especial de relajación que está
+                            ganando popularidad. Es perfecto para cualquiera que busque experimentar una nueva sensación
+                            relajante durante su masaje.</p>
+
+                        <p>Entonces, ¿qué es exactamente un masaje Nuru?</p>
+
+                        <p>Es un masaje de cuerpo completo que utiliza un gel especial llamado gel Nuru, el cual está
+                            hecho de algas marinas naturales. El gel es muy resbaladizo, claro y suave, lo que hace que
+                            se sienta fresco y refrescante en tu piel. A diferencia de los aceites de masaje regulares, el
+                            gel Nuru permite un movimiento deslizante único entre el cuerpo del masajista y el tuyo,
+                            creando una experiencia suave y relajante.</p>
+
+                        <p>¿Qué hace especial al masaje Nuru?</p>
+
+                        <p>La experiencia comienza con una ducha caliente. Esto ayuda a relajar tus músculos y prepara
+                            tu cuerpo para el masaje. Una vez que estés cómodo, se aplica el gel Nuru, y el masajista
+                            utiliza movimientos suaves y fluidos para masajear todo tu cuerpo, usando su cuerpo para
+                            deslizarse suavemente sobre el tuyo.</p>
+
+                        <p>¿El resultado? Una profunda relajación, alivio del estrés y una sensación de rejuvenecimiento.
+                            Es una forma muy efectiva de desconectar y recargar energías tanto mental como físicamente.</p>
+
+                        <p>Nuestros terapeutas capacitados aseguran un ambiente profesional y cómodo, donde puedes
+                            disfrutar de los beneficios de un auténtico masaje Nuru en completa privacidad.</p>
+                    </div>
+
+                    <div class="about-more-content">
+                        <div class="more-title"><i class="fa-solid fa-check-to-slot"></i>
+                            <h4>MASAJISTAS EXPERTAS, EXPERIENCIA INOLVIDABLE</h4>
+                        </div>
+                        <p>Nuestras masajistas expertas te aseguran una experiencia profesional y cómoda, llevando los
+                            beneficios de un auténtico masaje Nuru directamente a tu ubicación, en total privacidad.</p>
+
+                        <p>El masaje Nuru es un tratamiento único de cuerpo completo que utiliza un gel especial a base de
+                            algas marinas para deslizamientos suaves entre el cuerpo de la masajista y el tuyo.</p>
+
+                        <p>Ofrece una profunda relajación, alivio del estrés y rejuvenecimiento total.</p>
+
+                        <p>Nuestras masajistas garantizan una experiencia relajante y privada, adaptada a tus necesidades.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">
+                    <div class="about-img" style="border-radius: 150px; overflow: hidden;">
+                        <img src="../assets/img/about.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <a href="https://wa.me/19738610749" class="book-btn" target="_blank">
+        Reservar Una Cita
+        <span class="line"></span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#46345e"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+    </a>
+
+
+    <div id="service-rates-container">
+        <h1>TARIFAS DE SERVICIO</h1>
+        <table>
+            <tr>
+                <td><span class="checkmark">✔</span> 30MIN</td>
+                <td>$360</td>
+            </tr>
+            <tr>
+                <td><span class="checkmark">✔</span> 60MIN</td>
+                <td>$450</td>
+            </tr>
+            <tr>
+                <td><span class="checkmark">✔</span> 90MIN</td>
+                <td>$590</td>
+            </tr>
+        </table>
+        <a class="tp-btn main_btn" rel="noreferrer" href="tel:+19738610749">
+            <span>Llámamos</span>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="rgba(255,255,255,1)"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                    fill="currentColor"></path>
+            </svg>
+        </a>
+    </div>
+
+    <!----------------------- 
+			portfolio Section  
+		------------------------->
+
+
+    <div class="row mt-5 pt-4 wow animate__animated animate__fadeRight" data-wow-delay="0.6s">
+        <div class="portfolio_slider owl-carousel owl-theme">
+            <div class="port-slide">
+                <div class="portfolio">
+                    <img src="../assets/img/portfolio/1.jpg" alt="Portfolio">
+                    <div class="portfolio-content">
+                        <ul class="icon">
+                            <li><a href="assets/img/portfolio/1.jpg" data-lightbox="image-1" data-title="Project"><svg
+                                        width="30" height="30" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                            fill="currentColor"></path>
+                                    </svg></a></li>
+                        </ul>
+                        <div class="port_content">
+                            <h3 class="port_title">Sophia</h3>
+                            <span class="post">5’7″, 115 Lb, 32C-24-32</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="port-slide">
+                <div class="portfolio">
+                    <img src="../assets/img/portfolio/2.jpg" alt="Portfolio">
+                    <div class="portfolio-content">
+                        <ul class="icon">
+                            <li><a href="assets/img/portfolio/2.jpg" data-lightbox="image-1" data-title="Project"><svg
+                                        width="30" height="30" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                            fill="currentColor"></path>
+                                    </svg></a></li>
+                        </ul>
+                        <div class="port_content">
+                            <h3 class="port_title">Stella</h3>
+                            <span class="post">5'8", 120 Lbs, 34C-24-34 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="port-slide">
+                <div class="portfolio">
+                    <img src="../assets/img/portfolio/3.jpg" alt="Portfolio">
+                    <div class="portfolio-content">
+                        <ul class="icon">
+                            <li><a href="assets/img/portfolio/3.jpg" data-lightbox="image-1" data-title="Project"><svg
+                                        width="30" height="30" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                            fill="currentColor"></path>
+                                    </svg></a></li>
+                        </ul>
+                        <div class="port_content">
+                            <h3 class="port_title">Valezca</h3>
+                            <span class="post">5'6", 105 Lbs, 32C-23-31 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="port-slide">
+                <div class="portfolio">
+                    <img src="../assets/img/portfolio/4.jpg" alt="Portfolio">
+                    <div class="portfolio-content">
+                        <ul class="icon">
+                            <li><a href="assets/img/portfolio/4.jpg" data-lightbox="image-1" data-title="Project"><svg
+                                        width="30" height="30" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                            fill="currentColor"></path>
+                                    </svg></a></li>
+                        </ul>
+                        <div class="port_content">
+                            <h3 class="port_title">Romina</h3>
+                            <span class="post">5'7", 117 Lbs, 33C-24-34 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="port-slide">
+                <div class="portfolio">
+                    <img src="../assets/img/portfolio/5.jpg" alt="Portfolio">
+                    <div class="portfolio-content">
+                        <ul class="icon">
+                            <li><a href="assets/img/portfolio/5.jpg" data-lightbox="image-1" data-title="Project"><svg
+                                        width="30" height="30" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                            fill="currentColor"></path>
+                                    </svg></a></li>
+                        </ul>
+                        <div class="port_content">
+                            <h3 class="port_title">Amy</h3>
+                            <span class="post">5’8″, 105 Lbs, 32B-30-31 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="port-slide">
+                <div class="portfolio">
+                    <img src="../assets/img/portfolio/2.jpg" alt="Portfolio">
+                    <div class="portfolio-content">
+                        <ul class="icon">
+                            <li><a href="assets/img/portfolio/6.jpg" data-lightbox="image-1" data-title="Project"><svg
+                                        width="30" height="30" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                            fill="currentColor"></path>
+                                    </svg></a></li>
+                        </ul>
+                        <div class="port_content">
+                            <h3 class="port_title">Sophia</h3>
+                            <span class="post">5’8″, 105 Lbs, 32B-30-31 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="port-slide">
+                <div class="portfolio">
+                    <img src="../assets/img/portfolio/3.jpg" alt="Portfolio">
+                    <div class="portfolio-content">
+                        <ul class="icon">
+                            <li><a href="assets/img/portfolio/4.jpg" data-lightbox="image-1" data-title="Project"><svg
+                                        width="30" height="30" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                            fill="currentColor"></path>
+                                    </svg></a></li>
+                        </ul>
+                        <div class="port_content">
+                            <h3 class="port_title">Stella</h3>
+                            <span class="post">5'8", 120 Lbs, 34C-24-34</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="port-slide">
+                <div class="portfolio">
+                    <img src="../assets/img/portfolio/4.jpg" alt="Portfolio">
+                    <div class="portfolio-content">
+                        <ul class="icon">
+                            <li><a href="assets/img/portfolio/5.jpg" data-lightbox="image-1" data-title="Project"><svg
+                                        width="30" height="30" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                            fill="currentColor"></path>
+                                    </svg></a></li>
+                        </ul>
+                        <div class="port_content">
+                            <h3 class="port_title">Valezca</h3>
+                            <span class="post">5'6", 105 Lbs, 32C-23-31 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="port-slide">
+                <div class="portfolio">
+                    <img src="../assets/img/portfolio/5.jpg" alt="Portfolio">
+                    <div class="portfolio-content">
+                        <ul class="icon">
+                            <li><a href="assets/img/portfolio/6.jpg" data-lightbox="image-1" data-title="Project"><svg
+                                        width="30" height="30" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                            fill="currentColor"></path>
+                                    </svg></a></li>
+                        </ul>
+                        <div class="port_content">
+                            <h3 class="port_title">Romina</h3>
+                            <span class="post">5'7", 117 Lbs, 33C-24-34 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    </div>
+
+    <div class="bg_shape3">
+        <!----------------------- 
+			Work Section  
+		------------------------->
+        <!----------------------- 
+			Team Section  
+		------------------------->
+        <!----------------------- 
+			Pricing Section  
+		------------------------->
+
+        <!----------------------- 
+			Faq Section  
+		------------------------->
+        <!----------------------- 
+			Counter Section  
+		------------------------->
+        <div class="counter-up-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="te-counter-item wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+                            <div class="te-counter-title">
+                                <div class="icon">
+                                    <img src="../assets/img/counter/1.png" alt="icono">
+                                </div>
+                                <div class="content">
+                                    <p class="count_title">Premios ganados</p>
+                                    <h2 class="number">
+                                        <span class="counter">200</span><span>+</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="te-counter-item wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+                            <div class="te-counter-title">
+                                <div class="icon">
+                                    <img src="../assets/img/counter/2.png" alt="icono">
+                                </div>
+                                <div class="content">
+                                    <p class="count_title">Clientes felices</p>
+                                    <h2 class="number">
+                                        <span class="counter">10</span><span>K+</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="te-counter-item wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                            <div class="te-counter-title">
+                                <div class="icon">
+                                    <img src="../assets/img/counter/3.png" alt="icono">
+                                </div>
+                                <div class="content">
+                                    <p class="count_title">Masajes completados</p>
+                                    <h2 class="number">
+                                        <span class="counter">500</span><span>+</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="te-counter-item wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                            <div class="te-counter-title">
+                                <div class="icon">
+                                    <img src="../assets/img/counter/4.png" alt="icono">
+                                </div>
+                                <div class="content">
+                                    <p class="count_title">Comentarios de clientes</p>
+                                    <h2 class="number">
+                                        <span class="counter">400</span><span>+</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="bg_shape4">
+            <!----------------------- 
+			Testmonial Section  
+		------------------------->
+            <section class="testmonial-section section_padding pb_0" id="testimonial">
+                <div class="container">
+                    <div class="title wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+                        <span>Testimonios</span>
+                        <h2>¿Qué dicen nuestros clientes?</h2>
+                    </div>
+
+                    <div class="testimonial__slider owl-carousel owl-theme wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">
+                        <div class="testi-slide">
+                            <div class="testimonial__item_wrp">
+                                <div class="testimonial__item">
+                                    <div class="coma-top">
+                                        <img src="../assets/img/testi/testimonial-three-coma-top.png" alt="icon">
+                                    </div>
+                                    <div class="coma-bottom">
+                                        <img src="../assets/img/testi/testimonial-three-coma-bottom.png" alt="icon">
+                                    </div>
+                                    <div class="star d-flex gap-2 mb-4 justify-content-start">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>“Desde que visité el spa Euforia, me siento renovado. El ambiente es perfecto y el servicio es excepcional.”</p>
+                                    <div class="d-flex gap-3 align-items-center mt-30 pt-30 bor-top">
+                                        <img src="../assets/img/testi/1.png" alt="image">
+                                        <h5><a href="#0" class="fw-600">Carlos Mendoza,</a> <span class="fw-normal text-font">Director de Ventas</span></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testi-slide">
+                            <div class="testimonial__item_wrp">
+                                <div class="testimonial__item">
+                                    <div class="coma-top">
+                                        <img src="../assets/img/testi/testimonial-three-coma-top.png" alt="icon">
+                                    </div>
+                                    <div class="coma-bottom">
+                                        <img src="../assets/img/testi/testimonial-three-coma-bottom.png" alt="icon">
+                                    </div>
+                                    <div class="star d-flex gap-2 mb-4 justify-content-start">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>“Las terapias en Euforia son increíbles. Me han ayudado a aliviar el estrés y mejorar mi bienestar general.”</p>
+                                    <div class="d-flex gap-3 align-items-center mt-30 pt-30 bor-top">
+                                        <img src="../assets/img/testi/2.png" alt="image">
+                                        <h5><a href="#0" class="fw-600">Juan Torres,</a> <span class="fw-normal text-font">Empresario</span></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testi-slide">
+                            <div class="testimonial__item_wrp">
+                                <div class="testimonial__item">
+                                    <div class="coma-top">
+                                        <img src="../assets/img/testi/testimonial-three-coma-top.png" alt="icon">
+                                    </div>
+                                    <div class="coma-bottom">
+                                        <img src="../assets/img/testi/testimonial-three-coma-bottom.png" alt="icon">
+                                    </div>
+                                    <div class="star d-flex gap-2 mb-4 justify-content-start">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>“Recomiendo Euforia a todos mis amigos. La atención al cliente es inigualable y los servicios son de primera.”</p>
+                                    <div class="d-flex gap-3 align-items-center mt-30 pt-30 bor-top">
+                                        <img src="../assets/img/testi/1.png" alt="image">
+                                        <h5><a class="fw-600" href="#0">Roberto García,</a> <span class="fw-normal text-font">Consultor</span></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testi-slide">
+                            <div class="testimonial__item_wrp">
+                                <div class="testimonial__item">
+                                    <div class="coma-top">
+                                        <img src="../assets/img/testi/testimonial-three-coma-top.png" alt="icon">
+                                    </div>
+                                    <div class="coma-bottom">
+                                        <img src="../assets/img/testi/testimonial-three-coma-bottom.png" alt="icon">
+                                    </div>
+                                    <div class="star d-flex gap-2 mb-4 justify-content-start">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <p>“Una experiencia transformadora. El spa Euforia es mi lugar favorito para desconectarme del mundo.”</p>
+                                    <div class="d-flex gap-3 align-items-center mt-30 pt-30 bor-top">
+                                        <img src="../assets/img/testi/2.png" alt="image">
+                                        <h5><a class="fw-600" href="#0">Javier López,</a> <span class="fw-normal text-font">Ingeniero</span></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!----------------------- 
+			Blog Section  
+		------------------------->
+            <!----------------------- 
+			Contact Section  
+		------------------------->
+            <section class="contact section_padding" id="contact">
+                <div class="container">
+                    <div class="title mb-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+                        <span>Contáctanos</span>
+                        <h2>Ofrecemos Consultas Gratuitas</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 col-md-5">
+                            <div class="contact-info wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                                <div class="cicon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <h4>Correo Electrónico</h4>
+                                <p>tuemail.com</p>
+                            </div>
+                            <div class="contact-info contact_bg_2 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                                <div class="cicon">
+                                    <i class="fa-solid fa-clock"></i>
+                                </div>
+                                <h4>Horario de Atención</h4>
+                                <p>10 AM - 9 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-8 col-md-7 mx-auto wow animate__animated animate__fadeRight" data-wow-delay="0.5s">
+                            <div class="contact-form">
+                                <h3 class="ctitle">No dudes en preguntar</h3>
+                                <form action="assets/contact.php" method="POST">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input type="text" placeholder="Nombre" name="Name" required>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" placeholder="Apellido" name="Name" required>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="email" name="email" placeholder="Correo Electrónico" required>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="number" name="number" placeholder="Número de Teléfono" required>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <textarea name="massage" placeholder="Mensaje" required></textarea>
+                                        </div>
+                                        <div class="col-lg-12 text-left">
+                                            <button class="tp-btn ct_btn" type="submit">
+                                                <span>Enviar Mensaje</span>
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="rgba(255,255,255,1)"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                                        fill="currentColor"></path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <div class="verson_mood">
+                <div id="mode-icon" class="fas fa-sun"></div>
+            </div>
+
+            <!----------------------- 
+			Footer Section  
+		------------------------->
+            <section class="footer-section" id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                            <div class="footer-logo">
+                                <img src="assets/img/logo1.png" alt="">
+                                <div class="footer-para">
+                                    <p>1234, Calle del Restaurante, Ciudad del Sur,
+                                        Nueva York 01234</p>
+                                </div>
+                            </div>
+                            <ul class="social-media-links">
+                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                            <h4 class="footer-title">Enlaces Importantes</h4>
+                            <ul class="list-unstyled-footer">
+                                <li><a href="#">Acerca de</a></li>
+                                <li><a href="#">Conoce a Nuestro Equipo</a></li>
+                                <li><a href="#">Contacto</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 wow animate__animated animate__fadeInUp" data-wow-delay="0.7s">
+                            <h4 class="footer-title">Otros Enlaces</h4>
+                            <ul class="list-unstyled-footer">
+                                <li><a href="#">Misión y Visión</a></li>
+                                <li><a href="#">Por Qué Elegirnos</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 wow animate__animated animate__fadeInUp" data-wow-delay="0.8s">
+                            <div class="news-letter">
+                                <h4 class="footer-title">Soluciones</h4>
+                                <p>Suscríbete y recibe actualizaciones en tu bandeja de entrada directamente</p>
+
+                                <form>
+                                    <input type="text" class="letter" placeholder="Correo Electrónico"><a href="#"><i
+                                            class="fa fa-paper-plane" aria-hidden="true"></i></a>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-text">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p class="foot wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">©2024 AB_Themes.
+                                    Todos los derechos reservados.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="foot_text wow animate__animated animate__fadeInRight" data-wow-delay="0.7s">
+                                    <ul>
+                                        <li><a href="#">Términos de uso</a></li>
+                                        <li><a href="#">Política de Privacidad</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- latest js script -->
+            <script src="../assets/js/jquery-3.6.0.min.js"></script>
+            <script src="../assets/js/bootstrap.bundle.min.js"></script>
+            <script src="../assets/js/popper.min.js"></script>
+            <script src="../assets/js/SmoothScroll.js"></script>
+            <script src="../assets/js/flipdown.js"></script>
+            <script src="../assets/js/lightbox.min.js"></script>
+            <script src="../assets/js/owl.carousel.min.js"></script>
+            <script src="../assets/js/wow.min.js"></script>
+            <script src="../assets/js/jquery.nav.js"></script>
+            <script src="../assets/js/jquery.waypoints.min.js"></script>
+            <script src="../assets/js/counterup.js"></script>
+            <script src="../assets/js/script.js"></script>
+
+</body>
+
+</html>
